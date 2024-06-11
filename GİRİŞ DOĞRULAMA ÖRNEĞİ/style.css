@@ -1,0 +1,85 @@
+*{
+    text-decoration: none;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7fc7fe;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #515151;
+}
+header h3{
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav span{
+    font-size: 14px;
+}
+header nav a{
+    color: tomato;
+    font-size: 13px;
+}
+header aside{
+    display: flex;
+    margin: 40px 10px 40px 10px;
+}
+header aside input{
+    height: 50px;
+    width: 31px;
+    margin: 3px;
+    outline: none;
+    border: 1px solid #eee;
+    text-align: center;
+    font-size: 27px;
+}
+header aside input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+    -webkit-appearance: none; 
+}
+header aside input:focus{
+    box-shadow: 0 2px 5px #aaa;
+}
+header aside input:hover{
+    border-color: #cdcd;
+}
+header aside input::placeholder{
+    font-size: 27px;
+    position: absolute;
+    left: 10px;
+    bottom: 9px;
+}
+header div{
+    font-size: 11px;
+}
+header div a{
+    text-decoration:underline;
+    color: tomato;
+}
+header #back{
+    font-size: 14px;
+    color: tomato;
+    margin: 20px;
+}
+.active{
+    outline: 1px solid lime;
+    box-shadow: 0 2px 5px #aaa;
+    border-color: #cdcd;
+}
