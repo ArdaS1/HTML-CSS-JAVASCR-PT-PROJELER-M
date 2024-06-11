@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+<body>
+  
+    
+  <header>
+    <h1>Menü</h1>
+
+    <main>
+        <button class="menubutton" id="buttonall">Hepsi</button>
+        <button class="menubutton" id="buttonbreakfast">Kahvaltı</button>
+        <button class="menubutton" id="buttonfastfoot">Fast-Food</button>
+        <button class="menubutton" id="buttondrink">İçecekler</button>
+   </main>
+  </header>
+
+  <ul>
+
+
+
+    <li class="breakfast" data-foodid="Kahvaltı Sofrası" data-foodvalue="kahvaltisofrasi">
+        <img src="https://www.turkchem.net/wp-content/uploads/2022/04/1651136118_1649.jpg" style="width: 150px; height: 100px;">
+        <div>Kahvaltı Sofrası <span>₺500</span> <hr> <p>Kahvaltılık malzemeler arasında peynirler, zeytin, bal, reçel, tereyağı, domates, salatalık, tam tahıllı ekmek, simit, yumurta, tahin-pekmez, pastırma, sucuk gibi çeşitler bulunur.</p></div>
+    </li>
+    <li class="breakfast" data-foodid="Serpme Kahvaltı" data-foodvalue="serpmekahvalti">
+        <img src="https://yakaetlokantasi.com/storage/images/iRk6yMnMnGTXShI0.JPG" style="width: 150px; height: 100px;">
+        <div>Serpme Kahvaltı <span>₺400</span> <hr> <p>İki kişiliktir ve Ezine Peyniri, Kaşar Peyniri, Tereyağı, Domates, Salatalık, Zeytin Salatası, Çilek Reçeli, Çikolata, Bal, Salam, Sucuk, Patates, Simit, Poğaça, Sahanda Yumurta ile sunulur.</p></div>
+    </li>
+    <li class="breakfast" data-foodid="Kahvaltı Tabağı" data-foodvalue="kahvaltitabagi">
+        <img src="https://backhaus.com.tr/193-thickbox_default_pizza/backhaus-kahvalti-tabagi.jpg" style="width: 150px; height: 100px;">
+        <div>Kahvaltı Tabağı <span>₺200</span> <hr> <p>Kaşar Peyniri, Beyaz Peynir, Domates, Salatalık, Yeşil Biber, Siyah Zeytin, Yeşil Zeytin, Reçel, Tereyağ, Fırınımızdan Ekmek Çeşitlerimiz ve 1 adet çay</p></div>
+    </li>
+
+
+    <li class="fastfood" data-foodid="Hamburger" data-foodvalue="hamburger">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRavzqeDTmCKk0_d7fBfnh6SD0oxqOi_aKhPdnTh6dQXg&s" style="width: 150px; height: 100px;">
+        <div>Hamburger <span>₺240</span> <hr> <p>Ev yapımı tereyağlı burger ekmeğine; özel burger köftesi, seçeceğiniz malzemeler ile + Patates Kızartması + Ketçap + Mayonez + İçecek</p></div>
+    </li>
+    <li class="fastfood" data-foodid="Pizza" data-foodvalue="pizza">
+        <img src="https://cdn.yemek.com/mncrop/940/625/uploads/2020/08/ev-yapimi-pizza-tarifi.jpeg" style="width: 150px; height: 100px;">
+        <div>Pizza <span>₺250</span> <hr> <p>Pizza Sosu, Mozzerella, Sucuk, Sosis, Siyah Zeytin, Yeşil Biber, Mısır</p></div>
+    </li>
+    <li class="fastfood" data-foodid="Tost" data-foodvalue="tost">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnaeN5ECMAzRzkQTYMfzE7QdxoLzV_irBsZj3-cZNaWA&s" style="width: 150px; height: 100px;">
+        <div>Tost <span>₺150</span> <hr> <p>Ekşi maya ekmeği, taze kaşar, pesto sos, the house limon vinegret ve taze kekik ile lezzetlendirilmiş domates</p></div>
+    </li>
+    <li class="fastfood" data-foodid="Kumpir" data-foodvalue="kumpir">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-THk27R6I8R8yynrb5QYh5sjN_G3rd6V-OcDxCl--eQ&s" style="width: 150px; height: 100px;">
+        <div>Kumpir <span>₺220</span> <hr> <p>Tereyağ, Kaşar, Sosis, Rus Salatası, Turşu, Mısır, Siyah Zeytin, Tuz, Karabiber, Pulbiber, Ketçap, Mayonez , Havuç tarator</p></div>
+    </li>
+    <li class="fastfood" data-foodid="Patates Tabağı" data-foodvalue="patatestabagi">
+        <img src="https://combolunch.com.tr/uploads/urun/635e80c787d99_karisik-atistirma-tabagi.jpg" style="width: 150px; height: 100px;">
+        <div>Patates Tabağı <span>₺200</span> <hr> <p>Patates Kızartması, Sigara Böreği, Sosis, Çıtır Tavuk, Soğan Halkası, Mozzarella Stick, Patates Kroket, Sos.</p></div>
+    </li>
+
+
+    <li class="drink" data-foodid="Su" data-foodvalue="su">
+        <img src="https://cdnsta.avansas.com/mnresize/900/-/urun/76571/erikli-cam-sise-su-0-33lt-12li-zoom-1.jpg" style="width: 150px; height: 100px;">
+        <div>Su <span>₺20</span> <hr> <p>Doğal Erikli Doğal Kaynak Suyu</p></div>
+    </li>
+    <li class="drink" data-foodid="Coca Cola" data-foodvalue="cocacola">
+        <img src="https://www.euractiv.fr/wp-content/uploads/sites/3/2023/10/Coca-Cola-bottle-800x450.jpg" style="width: 150px; height: 100px;">
+        <div>Coca Cola <span>₺50</span> <hr> <p>Buz Gibi Coca Cola</p></div>
+    </li>
+    <li class="drink" data-foodid="Ayran" data-foodvalue="ayran">
+        <img src="https://www.sadahastanesi.com/tr/public/storage/ayran-kac-kalori---ayranin-besin-degeri.webp" style="width: 150px; height: 100px;">
+        <div>Ayran <span>₺50</span> <hr> <p>Buz ve Nane yaprağı ile ince bir dokunuş</p></div>
+    </li>
+    <li class="drink" data-foodid="Meyveli Soda" data-foodvalue="meyvelisoda">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn5ennI7UOe8p8RDVhDmZzqnl9fxRj4XxFodm_8Lx8Fg&s" style="width: 150px; height: 100px;">
+        <div>Meyveli Soda <span>₺40</span> <hr> <p>Nar, Limon, Elma, Karpuz Çilek ve Kivi</p></div>
+    </li>
+    <li class="drink" data-foodid="İce Tea" data-foodvalue="icetea">
+        <img src="https://blog.ofix.com/wp-content/uploads/2019/04/lipton_ice_tea_cesitleri_ofix_blog_1.jpg" style="width: 150px; height: 100px;">
+        <div>İce Tea <span>₺50</span> <hr> <p>Mango, Şeftali ve Limon</p></div>
+    </li>
+    
+    
+  </ul>
+
+<button id="add">Ürün Ekle</button>
+<button id="remove">Ürün Kaldır</button>
+
+
+<footer class="displaynone" id="popupone">
+    <aside>
+        <input id="foodimage" type="file" accept="image/*" required style="margin-top: 20px;">
+        <input id="foodname" type="text" placeholder="Ürün Adı:" maxlength="20">
+        <input id="foodprice" type="text" placeholder="Ürün Fiyatı:" maxlength="5">
+        <textarea id="foodcontent" style="resize: none;" placeholder="Ürün Açıklaması:" maxlength="189"></textarea>
+        <select id="selectone" >
+            <option>Ürün Çeşidi</option>
+            <option value="breakfast">Kahvaltı</option>
+            <option value="fastfood">Fast-Food</option>
+            <option value="drink">İçecek</option>
+        </select>
+        <button id="buttonsave">KAYDET</button>
+    </aside>
+</footer>
+
+
+<footer class="displaynone" id="popuptwo">
+    <span>
+
+        <h2>Ürün Adı</h2>
+        <select id="selecttwo">
+            
+        </select>
+        <button id="buttondelete">Ürünü Sil</button>
+
+    </span>
+    
+</footer>
+
+
+
+    <script src="./introduction.js"></script>
+</body>
+
+</html>
+
