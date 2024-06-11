@@ -1,5 +1,6 @@
-Bu Projeleri HTML-CSS-JAVASCRİPT öğrendikten sonra internet üzerinden proje örneklerine bakarak, ! fakat hiçbir şekilde kopya çekmeden kendimce yaptığım projelerdir.
-Projelerimi yüklememdeki amaç neler yapabildiğimi gösterebilmektir. FAKAT eksiklerimin olduğunu da gösterebilmektir. eğer staja kabul edilecek olursam diye bildiğimi ve bilmediğimi görmeleri için.
-Bazı projelerim eksiktir ve bunları staj ortamında geliştirebilmek veya kendimi geliştirdikçe güncellemek içinde ekleme yaptım.
+İlk Olarak HTML-CSS-JAVASCRİPT öğrendim ve sonrasında internet üzerinden proje örneklerine bakarak, ! fakat hiçbir şekilde kopya çekmeden kendimce yaptığım projeleri buraya yükledim.
+Projelerimi yüklememdeki amaç neler yapabildiğimi gösterebilmektir. FAKAT eksiklerimin olduğunu da gösterebilmektir. Ve bu yolda sonuna kadar devam etmek istediğim için insanların benim şuan için hangi seviyede olduğumu görmelerini sağlamak.
+Bazı projelerimde eksikler mevcuttur ve bunları staj ortamında geliştirebilmek veya kendimi geliştirdikçe güncellemek içinde ekleme yaptım. Fakat konu Eksiğim bu konular arasında az olduğunu düşünüyorum. Projelerimde her bir konunun dahil olduğu projem henüz mevcut değil fakat, bu olmayan konuları bilmediğim anlamına gelmez.
 Daha fazla bu şekil proje geliştirmeyeceğim Çünkü bir süredir REACT eğitimi görüyorum ve öğrenmeye çalışıyorum...
-Artık Projelerimi REACT ile geliştireceğim, proje yaptıkça yeni oluşturacağım REACT PROJELERİM adlı çalışmamda paylaşacağım.   
+Artık Projelerimi REACT ile geliştireceğim, proje yaptıkça yeni oluşturacağım REACT PROJELERIM adlı çalışmamda paylaşacağım. 
+Teşekkürler.
