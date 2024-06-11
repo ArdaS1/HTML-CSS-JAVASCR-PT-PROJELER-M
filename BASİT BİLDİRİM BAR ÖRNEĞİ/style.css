@@ -1,0 +1,89 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    display: flex;
+}
+nav button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    border: none;
+    outline: none;
+    margin: 5px;
+    cursor: pointer;
+}
+nav button:hover{
+    background-color: rgb(17, 17, 17);
+}
+header{
+    width: 410px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+header div{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0 0 5px #555555;
+    margin: 10px 0 15px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 15px;
+    position: relative;
+    transform: translateX(-352px);
+    transition: transform,400ms;
+}
+header div i{
+    margin: 0 20px 0 15px;
+    height: 21px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    display: flex;
+    padding-top: 9px;
+}
+header div span {
+    height: 4px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    animation-name: fill;
+    animation-duration: 4000ms;
+}
+
+.success span{
+    background-color: limegreen;
+}.success i{background-color: limegreen;}
+
+.error span{
+    background-color: tomato;
+}.error i{background-color: tomato;}
+
+.invalid span{
+    background-color: rgb(255, 183, 0);
+}.invalid i{background-color: rgb(255, 183, 0);}
+
+
+@keyframes fill{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
