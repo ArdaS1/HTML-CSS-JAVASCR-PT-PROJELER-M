@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+<body>
+
+    <header>
+        
+        <img id="sendphoto" src="https://www.svgrepo.com/show/412044/send.svg" height="25px" width="25px">
+
+        <form id="formOne" onsubmit='return false'>
+
+            <div id="user">
+                <input name="user" class="control" type="text" minlength="6" maxlength="12" placeholder="Kullanıcı Adı..." required>
+                <i class="fa fa-check"></i>
+                <main>Geçersiz</main>
+            </div>
+
+            <div id="pass">
+                <input name="password" class="control" type="password" placeholder="Şifre..." minlength="6" maxlength="12" required>
+                <i class="fa fa-check"></i>
+                <main>Geçersiz</main>
+                <img id="eye" src="https://www.svgrepo.com/show/509920/eye.svg" width="18px" height="18px">
+            </div>
+
+            <div id="mail">
+                <input name="mail" class="control" type="email" placeholder="E-Posta..." required>
+                <i class="fa fa-check"></i>
+                <main>Geçersiz</main>
+            </div>
+
+            <div id="date">
+                <input name="birthday" type="date" required>
+            </div>
+
+            <footer id="gend">
+                <label id="gender">
+                    <input type="radio" name="gender" value="ERKEK" required> Erkek
+                </label>
+                <label id="gender">
+                    <input type="radio" name="gender" value="KADIN" required> Kadın
+                </label>
+            </footer>
+
+            <div id="blog">
+                <textarea name="blog" placeholder="Düşünceleriniz.." maxlength="210"></textarea>
+            </div>
+
+            <button>Kayıt Ol</button>
+
+        </form>
+
+    </header>
+
+    
+    <script src="./introduction.js"></script>
+</body>
+
+</html>
+
