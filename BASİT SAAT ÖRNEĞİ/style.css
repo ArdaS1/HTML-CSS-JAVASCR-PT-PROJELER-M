@@ -1,0 +1,50 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(45deg, rgba(106, 140, 231,0.2) 0%, rgba(106, 140, 231,0.2) 14.286%,rgba(90, 125, 212,0.2) 14.286%, rgba(90, 125, 212,0.2) 28.572%,rgba(42, 81, 156,0.2) 28.572%, rgba(42, 81, 156,0.2) 42.858%,rgba(26, 67, 138,0.2) 42.858%, rgba(26, 67, 138,0.2) 57.144%,rgba(10, 52, 119,0.2) 57.144%, rgba(10, 52, 119,0.2) 71.43%,rgba(74, 111, 194,0.2) 71.43%, rgba(74, 111, 194,0.2) 85.716%,rgba(58, 96, 175,0.2) 85.716%, rgba(58, 96, 175,0.2) 100.002%),linear-gradient(45deg, rgba(106, 140, 231,0.2) 0%, rgba(106, 140, 231,0.2) 14.286%,rgba(90, 125, 212,0.2) 14.286%, rgba(90, 125, 212,0.2) 28.572%,rgba(42, 81, 156,0.2) 28.572%, rgba(42, 81, 156,0.2) 42.858%,rgba(26, 67, 138,0.2) 42.858%, rgba(26, 67, 138,0.2) 57.144%,rgba(10, 52, 119,0.2) 57.144%, rgba(10, 52, 119,0.2) 71.43%,rgba(74, 111, 194,0.2) 71.43%, rgba(74, 111, 194,0.2) 85.716%,rgba(58, 96, 175,0.2) 85.716%, rgba(58, 96, 175,0.2) 100.002%),linear-gradient(135deg, rgba(106, 140, 231,0.2) 0%, rgba(106, 140, 231,0.2) 14.286%,rgba(90, 125, 212,0.2) 14.286%, rgba(90, 125, 212,0.2) 28.572%,rgba(42, 81, 156,0.2) 28.572%, rgba(42, 81, 156,0.2) 42.858%,rgba(26, 67, 138,0.2) 42.858%, rgba(26, 67, 138,0.2) 57.144%,rgba(10, 52, 119,0.2) 57.144%, rgba(10, 52, 119,0.2) 71.43%,rgba(74, 111, 194,0.2) 71.43%, rgba(74, 111, 194,0.2) 85.716%,rgba(58, 96, 175,0.2) 85.716%, rgba(58, 96, 175,0.2) 100.002%),linear-gradient(90deg, rgb(9, 9, 9),rgb(180, 180, 180));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.350);
+    width: 600px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    border-radius: 5px;
+    user-select: none;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+header footer{
+    height: 7px;
+    width: 7px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px 0 10px 0;
+}
+header main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header main div{
+    font-size: 50px;
+}
+header main span{
+    font-size: 14px;
+}
