@@ -1,0 +1,96 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #031E4C;
+}
+header{
+    width: 450px;
+    height: 380px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+header button {
+    position: absolute;
+    bottom: 15px;
+    left: 40%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: #031E4C;
+    cursor: pointer;
+    border-radius: 5px;
+}
+header aside{
+    display: flex;
+    transition: transform,500ms;
+    
+}
+header main{
+    height: 380px;
+    width: 450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+header main h2{
+    margin: 25px 25px 5px 25px;
+    font-size: 22px;
+    color: #031E4C;
+}
+header main nav{
+    width: 410px;
+    height: 1px;
+    background-color: black;
+    margin-left: 20px;
+}
+header main h4{
+    margin: 25px 20px 0 25px;
+    font-size: 15px;
+    color: #031E4C;
+}
+header main footer{
+    display: flex;
+    flex-direction: column;
+    margin: 7px 25px 0 25px;
+}
+header main footer div{
+    width: 100%;
+    border: 1px solid black;
+    height: 35px;
+    border-radius: 5px;
+    margin: 7px 0 7px 0;
+    text-align: center;
+    line-height: 35px;
+    font-size: 13.5px;
+    user-select: none;
+    cursor: pointer;
+}
+header main footer div:hover{
+    background-color: #eee;
+}
+span{
+    margin: 25px;
+}
+#finish{
+    position: relative;
+}
+#finish img{
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    top: 46%;
+    left: 42%;
+}
